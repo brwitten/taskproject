@@ -2,13 +2,19 @@
 <html>
 <head>
 	<title>Beth's Task List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 	<h1>Beth's Task List</h1>
 <body>
 
-	<ul style="list-style-type:square">
+	<input type="text" id="myInput" placeholder="I need to...">
+    <span onclick="newElement()" class="addBtn">Add to List</span>
+
+	<ul style="list-style-type:square" id="listItems">
 		<li>Read 30 minutes</li>
 		<li>Work out</li>
 	</ul>
+
+	<script src="main.js"></script>
 </body>
 </html>
